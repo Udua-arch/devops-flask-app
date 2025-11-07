@@ -58,3 +58,4 @@ See `architecture.png` for a simple diagram showing how the pieces connect.
 
 ---
 
+trigger
