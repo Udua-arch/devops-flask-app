@@ -37,6 +37,7 @@ kubectl get svc devops-service
 [![Docker](https://img.shields.io/badge/Docker-published-blue)](https://hub.docker.com/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-ready-blue)](https://kubernetes.io/)
 [![CI/CD](https://github.com/Udua-arch/devops-flask-app/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Udua-arch/devops-flask-app/actions/workflows/ci-cd.yml)
+![Docker Image Version (latest)](https://img.shields.io/docker/v/uduarch/devops-app?sort=semver)
 
 
 
