@@ -48,7 +48,7 @@ To enable automatic pushes from GitHub Actions:
 
 The GitHub Actions workflow `ci-cd.yml` will then build and push `uduarch/devops-app:latest` on every push to `main`.
 
-hub.docker.com/repository/docker/uduarch/devops-app/general
+[hub.docker.com/repository/docker/uduarch/devops-app/general](https://hub.docker.com/repository/docker/uduarch/devops-app/general)
 
 ## Architecture Diagram
 
