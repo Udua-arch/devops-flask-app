@@ -46,12 +46,9 @@ kubectl get svc devops-service
 This project is configured to push the built Docker image to **DockerHub** under the repository `uduarch/devops-app`.
 To enable automatic pushes from GitHub Actions:
 
-1. Create a DockerHub access token at https://hub.docker.com/settings/security
-2. In your GitHub repository, go to **Settings → Secrets → Actions** and add:
-   - `DOCKERHUB_USERNAME` = your DockerHub username (`uduarch`)
-   - `DOCKERHUB_TOKEN` = the access token you created
-
 The GitHub Actions workflow `ci-cd.yml` will then build and push `uduarch/devops-app:latest` on every push to `main`.
+
+hub.docker.com/repository/docker/uduarch/devops-app/general
 
 ## Architecture Diagram
 
